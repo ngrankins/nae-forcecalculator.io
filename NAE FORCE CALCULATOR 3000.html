@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Force Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h1>Force Calculator</h1>
+            <p class="description">Calculate the force using the formula F = m * a</p>
+            <form id="force-form">
+                <div class="input-group">
+                    <label for="mass">Mass (kg):</label>
+                    <input type="number" id="mass" placeholder="Enter mass in kg" required>
+                </div>
+                <div class="input-group">
+                    <label for="acceleration">Acceleration (m/s²):</label>
+                    <input type="number" id="acceleration" placeholder="Enter acceleration in m/s²" required>
+                </div>
+                <button type="submit">Calculate Force</button>
+            </form>
+            <div class="result" id="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
